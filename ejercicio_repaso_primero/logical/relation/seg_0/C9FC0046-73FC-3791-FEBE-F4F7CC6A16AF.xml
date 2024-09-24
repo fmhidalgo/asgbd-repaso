@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATAR" directorySegmentName="seg_0" id="C9FC0046-73FC-3791-FEBE-F4F7CC6A16AF">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:21:21 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<sourcePk>2ACC909F-A85F-5653-DF2F-A2357DD80280</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C5278FFA-52E3-7ECD-D85F-D7402E0BF3E2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>383E65D4-7D42-1D28-FEC8-9486A9EF9C89</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

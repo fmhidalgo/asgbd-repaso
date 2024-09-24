@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D250E4A2-D3C6-0F23-6C55-4832E55FAA61" containerWithKeyObject="D117626D-3E7D-F9C1-C900-DB6ADABBFF62" localFKIndex="C3604D20-86CC-9E0D-A975-2E7D694ADDD6" name="VOLAR_VUELO_FK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>E801DD2A-D01E-D649-28DB-BC86D7214F14</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<referredTableLongName>VUELO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A68529F-7111-E637-C270-90C0440D7AC8</referredTableID>
+<keyObject>19E0A693-587A-423F-2020-9FEEEB6CAF52</keyObject>
+<referredKeyID>19E0A693-587A-423F-2020-9FEEEB6CAF52</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>num_vuelo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA8B5E84-B853-8F72-D631-B758F9D25B74" name="TURISTA">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>383E65D4-7D42-1D28-FEC8-9486A9EF9C89</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_turista" id="12F2C335-6B19-6CD2-7B18-68CEA6A7BE60">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>6FE4BEB2-F837-0ADD-8A6F-C76AE3E4298D</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="981625B1-6D5B-C545-3AAF-B1213CA789EF">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>E82636F2-29D2-79FA-EC85-239AF02B89B7</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="5A6A6ECB-9B8A-49E6-3C97-763E6D8A3875">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>1A7EED7C-49D3-6FB8-4104-1FA31D66D55F</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="93A364A6-8501-7CB3-2E4B-45F43C9B75F2">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>FA1F323B-B8CF-EF19-BFA3-EA6A9F616C06</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tlfno" id="419FE2F1-8D2E-E796-EE91-08225754BDED">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>A396D69A-2205-F047-A288-25795B37C768</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUCURSAL_id_sucursal" id="77A8BFEC-7C99-C0D2-29C9-8F0C1F2BB0B4">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>961B1218-BCA7-1DEE-329B-441207C8EAC6</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6822C948-CBFB-5BDD-43E6-6D4FA1217520" referredColumn="D2425433-587C-8BC8-7AE8-02EBF2BF358E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E3EAEE6-21AE-4758-2E0F-E995993AE30E" name="TURISTA_PK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>A00D774A-01D7-B26E-0DA2-B2B9FE9E50C8</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12F2C335-6B19-6CD2-7B18-68CEA6A7BE60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19238AF5-D5EA-329F-6FB4-23897F44F0E4" name="TURISTA_SUCURSAL_FK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>C9FC0046-73FC-3791-FEBE-F4F7CC6A16AF</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77A8BFEC-7C99-C0D2-29C9-8F0C1F2BB0B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

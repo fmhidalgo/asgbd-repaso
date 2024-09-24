@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HOSPEDAR" directorySegmentName="seg_0" id="6668FB0E-9FF3-5EF6-CCE2-E430A2605425">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:26:19 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B6700B5E-3E43-3FA8-9128-BFAB3CDADBD8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>383E65D4-7D42-1D28-FEC8-9486A9EF9C89</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="regimen" id="ACEC59C6-2E6A-40BB-6907-3979505A8AC2">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:28:59 UTC</createdTime>
+<comment><![CDATA['C' es hospedaje en pensión completa
+'M' es hospedaje en media pensión]]></comment>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</attribute>
+<attribute name="fecha_llegada" id="4F2B717F-78D4-133E-14CB-51825F457EE0">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:29:51 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="fecha_salida" id="AE550291-06A8-38E1-23BC-B44D160D4C0D">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:30:22 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

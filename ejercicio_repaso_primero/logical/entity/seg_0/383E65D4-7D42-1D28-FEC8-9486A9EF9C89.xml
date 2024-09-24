@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="383E65D4-7D42-1D28-FEC8-9486A9EF9C89" name="TURISTA">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:16:05 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_turista" id="6FE4BEB2-F837-0ADD-8A6F-C76AE3E4298D">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:16:16 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E82636F2-29D2-79FA-EC85-239AF02B89B7">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:16:36 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="1A7EED7C-49D3-6FB8-4104-1FA31D66D55F">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:17:05 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="FA1F323B-B8CF-EF19-BFA3-EA6A9F616C06">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:17:34 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tlfno" id="A396D69A-2205-F047-A288-25795B37C768">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:18:01 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sucursal" id="961B1218-BCA7-1DEE-329B-441207C8EAC6">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:21:21 UTC</createdTime>
+<generatorID>C9FC0046-73FC-3791-FEBE-F4F7CC6A16AF</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>704AC442-97BB-C206-4DEC-A45C160805BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A00D774A-01D7-B26E-0DA2-B2B9FE9E50C8" name="TURISTA PK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:16:33 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FE4BEB2-F837-0ADD-8A6F-C76AE3E4298D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6700B5E-3E43-3FA8-9128-BFAB3CDADBD8" name="HOTEL">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:08:25 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_hotel" id="8AAB006E-7EA0-8AAD-D0CF-A583C90EED01">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:08:42 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D25DB1C3-5320-A718-E4B0-5788F3F4D4F7">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:09:12 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="4DD786F8-EA68-9AA3-145C-6CBCAF29947B">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:09:41 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="A44DC80F-36A0-4F30-A323-8FC29B8BD1FF">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:10:07 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tlfno" id="8DA09528-5B07-7499-61DA-15659FDFE6F1">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:10:29 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plazas" id="F0EE63F2-3C95-1687-66CF-CB88E3A704DA">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:10:58 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B58C524E-EB96-08D6-972D-BA39A48CE520" name="HOTEL PK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:09:08 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<engineerTo>
+<item key="765BDD0F-25A0-B3DA-B42B-1A19516A4A0B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8AAB006E-7EA0-8AAD-D0CF-A583C90EED01</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

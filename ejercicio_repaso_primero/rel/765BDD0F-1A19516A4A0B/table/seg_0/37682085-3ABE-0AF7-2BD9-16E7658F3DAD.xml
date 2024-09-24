@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37682085-3ABE-0AF7-2BD9-16E7658F3DAD" name="HOSPEDAR">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HOTEL_id_hotel" id="F119970A-6334-7B71-BE12-E74A8AB5A584">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3B78826-0125-F722-4457-3FD8C24E4738" referredColumn="99A3B630-D07E-BAF8-0749-7446A662FE8D"/>
+</associations>
+</Column>
+<Column name="TURISTA_id_turista" id="32BB6949-A684-9930-145D-E0CA1F7AB832">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C17DC5F-6213-3839-E938-2647EC0B1024" referredColumn="12F2C335-6B19-6CD2-7B18-68CEA6A7BE60"/>
+</associations>
+</Column>
+<Column name="regimen" id="F042EC2B-AF3E-0FF9-6760-B9E0CD5F873C">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<comment><![CDATA['C' es hospedaje en pensión completa
+'M' es hospedaje en media pensión]]></comment>
+<generatorID>ACEC59C6-2E6A-40BB-6907-3979505A8AC2</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="fecha_llegada" id="5638202E-B44F-9D48-2D63-406CA215215F">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>4F2B717F-78D4-133E-14CB-51825F457EE0</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="fecha_salida" id="29565EA2-E814-0163-BC1B-BC1592EFF4FF">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>AE550291-06A8-38E1-23BC-B44D160D4C0D</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D1A5B89-B3E1-7C3A-CDB5-335FBDBFC4A2" name="HOSPEDAR_PK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F119970A-6334-7B71-BE12-E74A8AB5A584"/>
+<colUsage columnID="32BB6949-A684-9930-145D-E0CA1F7AB832"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B05538D-B42B-23C6-5270-83FF62EBD9E6" name="HOSPEDAR_HOTEL_FK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>6668FB0E-9FF3-5EF6-CCE2-E430A2605425</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F119970A-6334-7B71-BE12-E74A8AB5A584"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCB33BD4-7F5B-119B-D8F0-4A84C24FED88" name="HOSPEDAR_TURISTA_FK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>6668FB0E-9FF3-5EF6-CCE2-E430A2605425</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32BB6949-A684-9930-145D-E0CA1F7AB832"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

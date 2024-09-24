@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D117626D-3E7D-F9C1-C900-DB6ADABBFF62" name="VOLAR">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VUELO_num_vuelo" id="74E72C97-9892-3762-6CE5-A07CD2B71C99">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D250E4A2-D3C6-0F23-6C55-4832E55FAA61" referredColumn="0E4920C8-9BDA-EE7E-1422-E6D5C76685D6"/>
+</associations>
+</Column>
+<Column name="TURISTA_id_turista" id="5E3C5C5D-8A86-49E3-5D25-142CE266FC40">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E77CBD0F-0315-9264-3F09-74F06630D0E1" referredColumn="12F2C335-6B19-6CD2-7B18-68CEA6A7BE60"/>
+</associations>
+</Column>
+<Column name="clase" id="A634FA4B-73EB-5AD9-2213-F27FB3814402">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>699587F3-3622-E839-6527-57F14C458092</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A402181-6663-E4A3-66A0-70B31E6B3E86" name="VOLAR_PK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74E72C97-9892-3762-6CE5-A07CD2B71C99"/>
+<colUsage columnID="5E3C5C5D-8A86-49E3-5D25-142CE266FC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3604D20-86CC-9E0D-A975-2E7D694ADDD6" name="VOLAR_VUELO_FK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>E801DD2A-D01E-D649-28DB-BC86D7214F14</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74E72C97-9892-3762-6CE5-A07CD2B71C99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F96B0A17-D619-A61C-2298-32683A386333" name="VOLAR_TURISTA_FK">
+<createdBy>Fran Hidalgo</createdBy>
+<createdTime>2024-09-24 10:35:11 UTC</createdTime>
+<generatorID>E801DD2A-D01E-D649-28DB-BC86D7214F14</generatorID>
+<ownerDesignName>ejercicio_repaso_primero</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E3C5C5D-8A86-49E3-5D25-142CE266FC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
